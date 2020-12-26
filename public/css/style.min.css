@@ -1,0 +1,7 @@
+body{font-size:14px}p{margin-bottom:0}.bg-brown{background-color:sienna}.bg-gray{background-color:silver}.btn{width:150px}.form-group{margin-bottom:4px}.form-group .form-lg{height:44px;font-size:14px}.form-group .form-error{background-color:pink}.icon-wrapper{height:max-content;border-radius:50%;border:solid 1px lightgrey}.icon-wrapper .icon{height:32px;width:32px}.post-container{position:relative}.post-container .user-info{position:absolute;top:48px;right:24px;cursor:pointer}.post-container .user-info:hover .user-name,.post-container .user-info:hover .arrow{opacity:0.6}.post-container .post-form{position:relative}.post-container .post-form .image-wrapper{position:absolute;bottom:1px;right:1px}.post-container .post-form .image-wrapper #image-post-label{border-radius:.25rem}.post-container .post-form .image-wrapper .fa-image{font-size:24px}.post-container .post-form .preview-cover{position:absolute;bottom:12px;left:12px;height:60px;width:60px;display:none}.image{padding:16px 0}.title-container{padding:48px;position:relative}.title-container .sub-text{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);-webkit-transform:translateX(-50%)}.sign-up-card{width:500px}#image-post{display:none}#image-post-label{background:#fff;cursor:pointer;padding:0.4em 0.8em;margin-bottom:0}
+
+.signinbtn{
+    float            : right;
+    margin-top       : -120px;
+    margin-right     : 80px;
+}
