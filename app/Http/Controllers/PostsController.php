@@ -90,7 +90,6 @@ class PostsController extends Controller
             $disk = Storage::disk('s3');
             $disk->delete($post->photo->filename);
         }
-
         return redirect("/");
     }
 
