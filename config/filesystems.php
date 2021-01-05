@@ -1,7 +1,5 @@
 <?php
 
-var_dump(env('AWS_ACCESS_KEY_ID'));
-
 return [
 
     /*

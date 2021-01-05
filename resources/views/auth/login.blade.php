@@ -2,7 +2,7 @@
 @section('content')
 <div class="container-field bg-success vh-100">
     <div class="title-container text-center">
-        <span class="display-4 text-white font-weight-bold">PL Forum</span>
+        <span class="display-4 text-white font-weight-bold">掲示板アプリ</span>
         <small class="text-white sub-text">サインインしてください</small>
     </div>
     <div class="sign-up-card card card-body pt-4 pb-5 px-5 mx-auto">
