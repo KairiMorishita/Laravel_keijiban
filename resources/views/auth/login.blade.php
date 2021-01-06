@@ -3,7 +3,7 @@
 <div class="container-field bg-success vh-100">
     <div class="title-container text-center">
         <span class="display-4 text-white font-weight-bold">掲示板</span>
-        <small class="text-white sub-text">サインインしてください</small>
+        <small class="text-white sub-text">ログインしてください</small>
     </div>
     <div class="sign-up-card card card-body pt-4 pb-5 px-5 mx-auto">
         <form action="{{ route('login') }}" method="POST" id="login_form" class="p-3">
@@ -26,7 +26,7 @@
                     </span>
                 @endif
             </div>
-            <button type="submit" name="submit" class="btn bg-brown  w-100 mb-4">SIGN IN</button>
+            <button type="submit" name="submit" class="btn bg-brown  w-100 mb-4">ログイン</button>
             <button type="button" onclick="location.href='/register'" name="sign_up_btn" class="btn bg-brown  w-100">新規登録</button>
         </form>
     </div>

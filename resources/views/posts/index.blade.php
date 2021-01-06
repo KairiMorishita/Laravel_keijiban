@@ -12,7 +12,7 @@
       <span><i class="arrow fas fa-chevron-down text-white"></i></span>
     </div>
     <ul class="dropdown-menu">
-        <li><a href="" class="text-dark dropdown-item" data-toggle="modal" data-target="#logout_modal">サインアウトする</a></li>
+        <li><a href="" class="text-dark dropdown-item" data-toggle="modal" data-target="#logout_modal">ログアウト</a></li>
         <li><a href="" class="text-dark dropdown-item" data-toggle="modal">メニュー１</a></li>
         <li><a href="" class="text-dark dropdown-item" data-toggle="modal">メニュー２</a></li>
     </ul>
@@ -38,7 +38,7 @@
     </form>
 @else
   <div class="signinbtn">
-    <a href="{{ route('login') }}" class="btn bg-brown text-white mb-3">SIGN IN</a>
+    <a href="{{ route('login') }}" class="btn bg-brown text-white mb-3">ログイン</a>
   </div>
 @endif
 
@@ -83,7 +83,7 @@
       <form action="{{ route('logout') }}" method="POST" id="logout_form">
       {{ csrf_field() }}
         <div class="modal-body text-center p-4">
-          <p class="pb-2">サインアウトしてよろしいですか？</p>
+          <p class="pb-2">ログアウトしてよろしいですか？</p>
           <div class="d-flex justify-content-center mt-4">
             <button type="submit" name="submit" class="btn bg-brown text-white mr-4">はい</button>
             <button type="button" class="btn bg-gray text-white"  data-dismiss="modal">いいえ</button>
