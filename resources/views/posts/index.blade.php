@@ -1,7 +1,7 @@
 @extends('layouts/app')
 @section('content')
 <div class="container-field bg-success post-container">
-<h2 class="text-white text-center py-5">掲示板アプリ</h2>
+<h2 class="text-white text-center py-5">掲示板</h2>
 
 @if (Auth::id())
     <div class="user-info d-flex align-items-center" data-toggle="dropdown" aria-expanded="false">
